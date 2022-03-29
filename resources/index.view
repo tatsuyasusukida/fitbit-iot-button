@@ -1,0 +1,3 @@
+<svg>
+  <use id="send-button" href="#text-button" class="text-button primary application-fill" />
+</svg>

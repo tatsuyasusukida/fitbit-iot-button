@@ -1,0 +1,30 @@
+{
+  "devDependencies": {
+    "@fitbit/sdk": "~6.0.0",
+    "@fitbit/sdk-cli": "^1.7.3"
+  },
+  "fitbit": {
+    "appUUID": "5ce40571-a58d-4459-82e0-24fcf3fc52cb",
+    "appType": "app",
+    "appDisplayName": "IoT Button",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#4caf50",
+    "requestedPermissions": [
+      "access_internet"
+    ],
+    "buildTargets": [
+      "atlas",
+      "vulcan"
+    ],
+    "i18n": {
+      "en-US": {
+        "name": "IoT Button"
+      }
+    },
+    "defaultLanguage": "en-US"
+  },
+  "scripts": {
+    "start": "fitbit-build && fitbit",
+    "build": "fitbit-build"
+  }
+}
